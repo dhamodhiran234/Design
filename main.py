@@ -7,6 +7,6 @@ def odd():
 
 def one():
     for i in range(10):
-        priint(i)
+        print(i)
 odd()
 one()
