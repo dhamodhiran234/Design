@@ -4,4 +4,9 @@ def odd():
         print("even")
     else:
         print("odd")
+
+def one():
+    for i in range(10):
+        priint(i)
 odd()
+one()
