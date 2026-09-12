@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .side{
+            background-color: rgb(4, 167, 243);
+            width: 430px;
+            text-align: center;
+            padding: 30px;
+        }
+       
+        h3{
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        h4{
+            margin-top: 52px;
+            font-size: x-large;
+            font-weight: 300;
+        }
+        h4:hover{
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px;
+            width: 100%;
+            margin-top: 45px;
+            transition: 0.1s;
+        }
+         @media (max-width:1000px){
+            .side{
+                width: 250px;
+            }
+            h4{
+                margin-top: 39px;
+            }
+            h4:hover{
+                margin-top: 25px;
+            }
+        }
+        .con{
+            display: flex;
+        }
+        .head{
+            background-color: rgb(13, 13, 241);
+            margin: 4px;
+            border-radius: 20px;
+            max-height: 40px;
+            text-align: center;
+            padding: 30px;
+            width: 100%;
+        }
+        @media (max-width:700px){
+            .head{
+                max-height: 100px;
+            }
+        }
+        .bo{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="con">
+    <div class="side">
+        <h3>SBI</h3>
+        <h4>HOME</h4>
+        <h4>SIGN UP</h4>
+        <h4>LOGIN</h4>
+        <h4>ACCOUNT DETAILS</h4>
+        <h4>CREDIT AMOUNT</h4>
+        <h4>DEBIT AMOUNT</h4>
+        <h4>CHECK BALANCE</h4>
+        <h4>LOG OUT</h4>
+    </div>
+    <div class="bo">
+    <div class="head">
+        <h1>WELCOME TO SBI BANK</h1>
+    </div>
+    <div class="cont">
+        <h1>hello</h1>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

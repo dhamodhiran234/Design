@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .con1,.con2{
+            background-color: rgb(8, 187, 247);
+            width: 100%;
+            max-width: 500px;
+            height: 480px;
+            text-align: center;
+            color: black;
+            margin: 30px;
+            padding: 20px;
+            border-radius: 30px;
+            font-weight: bolder;
+            border: 4px solid black;
+        }
+        .im{
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        label{
+            display: block;
+            font-size: xx-large;
+            margin-top: 30px;
+            font-weight: 50;
+            color: black;
+        }
+        input
+        {
+            
+            font-size: larger;
+            padding: 10px;
+            margin-top: 5px;
+            width: 90%;
+            border-radius: 10px;
+            border: 3px solid black;
+        }
+        input::placeholder{
+            text-align: center;
+        }
+        input:focus{
+            border: 3px solid red;
+        }
+        input:hover{
+            margin-left: 3px;
+        }
+        .btn{
+            margin-top: 50px;
+        }
+        button{
+            font-size: x-large;
+            padding: 10px;
+            width: 60%;
+            border-radius: 20px;
+            border: 3px solid black;
+            font-weight: bolder;
+        }
+        button:hover{
+            width: 58%;
+        }
+        .sin p{
+            margin-top: 20px;
+            font-size: large;
+            color: black;
+            font-weight: 100;
+        }
+        p{
+             margin-top: 5px;
+            font-size: large;
+            color: black;
+            font-weight: 100;
+
+        }
+        a{
+            color: rgb(6, 6, 168);
+            margin-left: 3px;
+            text-decoration: none;
+        }
+        .re{
+            display: flex;
+            justify-content: flex-start;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="im">
+    
+   
+    <div class="con2">
+        <div class="head">
+            <h1>LOGIN IN</h1>
+            <p>please enter your login details</p>
+        </div>
+
+        <div class="in">
+            <label for="">EMAIL</label>
+            <input type="email" name="" placeholder="name@example.com" required id="">
+            <label for="">PASSWORD</label>
+            <input type="password" name="" placeholder="enter your password" required id="">
+        </div>
+        
+        <div class="btn">
+            <button type="button">LOGIN IN</button>
+        </div>
+        <div class="sin">
+        <p>Don't have an account? <a href="sign.html">Sign Up</a></p>
+        </div>
+    </div>
+   
+    </div>
+
+    
+</body>
+</html>
